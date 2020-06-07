@@ -1,0 +1,342 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Vollkorn", serif;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rrem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  line-height: 1.5;
+}
+
+.jumbotron p {
+  color: #fff;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Navbar */
+
+.navbar {
+  text-align: left;
+}
+
+/* Carousel */
+
+#carousel {
+  background-color: #8f8f8f;
+}
+
+.carousel-item {
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+/* Upcoming Speakers */
+
+.upcoming-title {
+  text-align: left;
+}
+
+.upcoming-speakers {
+  text-align: center;
+  padding: 10% 5%;
+}
+
+.speakers {
+  padding: 5% 2%;
+}
+
+/* Reasons */
+
+.reasons {
+  background-color: #8f8f8f;
+  color: #fff;
+  padding: 5%;
+}
+
+.reasons-title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.reasons-paragraph {
+  padding: 5%;
+  text-align: left;
+  line-height: 2;
+}
+
+.reasons-img {
+  padding: 2%;
+}
+
+/* Contact Us */
+
+.contact-us {
+  padding: 10% 5%;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+/* ------------------------------------------- */
+
+/* Footer */
+
+#footer .inner {
+  padding: 5%;
+  /* display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex; */
+  display: flex;
+  /* -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row; */
+  flex-direction: row;
+  /* -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap; */
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 55rem;
+}
+
+#footer .inner > * {
+  width: 100%;
+}
+
+#footer .inner .major {
+  text-align: center;
+}
+
+#footer .inner form {
+  margin: 0 3rem 0 0;
+  width: calc(50% - 1.5rem);
+  text-align: left;
+}
+
+#footer .inner form .field input,
+textarea {
+  width: 100%;
+}
+
+#footer .inner form .actions li {
+  list-style: none;
+  text-align: center;
+}
+
+#footer .inner .contact {
+  width: calc(50% - 1.5rem);
+}
+
+#footer .inner .contact li {
+  list-style: none;
+  width: 100%;
+  text-align: left;
+  margin-top: 0;
+  text-decoration: none;
+  margin: 0.2rem 0 2rem 0;
+  padding: 0 0 0 3.25rem;
+  position: relative;
+}
+
+section .copyright {
+  background-color: #8f8f8f;
+  border-top: solid 2px rgba(255, 255, 255, 0.125);
+  list-style: none;
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+section .copyright li {
+  border-left: solid 2px rgba(255, 255, 255, 0.125);
+  display: inline-block;
+  font-size: 0.9rem;
+  line-height: 1;
+  margin: 0 0 0;
+  padding-left: 1rem;
+}
+
+section .copyright li:first-child {
+  color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  #footer {
+    background-color: #fff;
+    background-size: auto, cover;
+    background-position: center, center;
+    margin-top: -6.5rem;
+    padding-top: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #footer {
+    margin-top: -4.75rem;
+    padding-top: 4.75rem;
+  }
+
+  #footer .inner {
+    padding: 3rem 3rem 1rem 3rem;
+    display: block;
+    width: 100%;
+  }
+
+  #footer .inner form {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+
+  #footer .inner .contact {
+    width: 100%;
+    margin: 0 0 4rem 0;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #footer {
+    margin-top: -2.5rem;
+    padding-top: 2.5rem;
+  }
+
+  #footer .inner {
+    padding: 2rem 2rem 0.1rem 2rem;
+  }
+
+  #footer .inner form {
+    margin: 0 0 3rem 0;
+  }
+
+  #footer .inner .contact {
+    margin: 0 0 3rem 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section .copyright li {
+    border-left: 0;
+    display: block;
+    padding-left: 0;
+  }
+
+  section .copyright li:first-child {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #footer .inner {
+    padding: 2rem 1.5rem 0.1rem 1.5rem;
+  }
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+section {
+  padding: 3%;
+}
+
+section.copyright-Container {
+  width: 100%;
+  margin-bottom: 0rem;
+  padding: 0;
+}
+
+.pictoImage {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.docImage {
+  width: 75%;
+  margin-bottom: 2%;
+}
+
+.docDetails {
+  text-align: center;
+  line-height: 0.5;
+}
+
+.docInfo {
+  padding: 5%;
+}
+
+.docAbout {
+  padding: 6% 0;
+}
+
+.docAboutWithoutBooking {
+  margin-top: 0;
+  padding: 1%;
+}
+
+.btnContainer {
+  text-align: center;
+  padding: 6% 0;
+}
+
+.btn {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+/* Appointment Booking Form */
+
+.bookingForm {
+  padding: 10% 0;
+}
+
+.bookingForm form .fields {
+  padding: 10% 0;
+}
+
+.bookingForm form .field input {
+  width: 100%;
+}
+
+.bookingForm form ul.registerBtn {
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bookingForm form ul li {
+  list-style: none;
+
+}
